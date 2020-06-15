@@ -6,7 +6,7 @@ body{
 }
 header {
   background-image: url(../img/hero-image.jpg);
-  background-position: -41px -764px;
+  background-position: +90px -764px;
   background-repeat: no-repeat;
 }
 
@@ -54,8 +54,9 @@ footer {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  width: 980px;
+  width: 1480px;
   padding: 1em 0 2.6em;
+  transform: scale(0.8);
 }
 
 footer a {
@@ -112,7 +113,7 @@ footer a:hover {
 }
 
 .left {
-  width: 49%;
+  width: 43%;
   padding-top: 1.5em;
   text-align: left;
   float: left;
@@ -120,7 +121,7 @@ footer a:hover {
 
 .right {
   float: right;
-  width: 51%;
+  width: 57%;
   padding-top: 1.5em;
   text-align: right;
 }
@@ -136,6 +137,7 @@ footer a:hover {
   margin-left: 0.6em;
   padding-left: 0.6em;
   border-left: 1px solid #ccc;
+  text-align: center;
 }
 
 .mobile-imag1 {
@@ -177,4 +179,8 @@ h5{
 
 .header div{
   margin-top: 193px;
+}
+
+.straight-line {
+    border-left: 1px solid #ccc;
 }
