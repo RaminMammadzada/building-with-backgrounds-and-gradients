@@ -6,7 +6,7 @@ body{
 }
 header {
   background-image: url(../img/hero-image.jpg);
-  background-position: +90px -764px;
+  background-position: 4px -764px;
   background-repeat: no-repeat;
 }
 
@@ -160,8 +160,12 @@ footer a:hover {
 h1,h2,h5 {
   text-align: center;
 }
+h1{
+  font-size: 38;;
+}
 h2{
   position: absolute;
+  font-size: 28;
   left :200px;
   right: 200px;
 }
@@ -170,11 +174,13 @@ h5{
   left: 13%;
   right: 14%;
   position: absolute;
+  font-size: 23px;
 }
 
 .header a{
   color: white;
   text-decoration: none;
+  font-weight: 100;
 }
 
 .header div{
