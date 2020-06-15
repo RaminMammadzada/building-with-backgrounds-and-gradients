@@ -4,7 +4,7 @@
 
 Microverse Collaborative Project (Ramin and Umair)
 
-![screenshot](img/app_screenshot.png)
+![screenshot](img/page_screenshot.png)
 
 Additional description about the project and its features.
 
