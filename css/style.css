@@ -1,16 +1,19 @@
 * {
   box-sizing: border-box;
 }
-body{
+
+body {
   margin: 0;
 }
+
 header {
   background-image: url(../img/hero-image.jpg);
   background-position: 5px -744px;
   background-repeat: no-repeat;
-    /* width: 1450px; */
-    margin-left: auto;
-    margin-right: auto;
+
+  /* width: 1450px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
@@ -45,12 +48,13 @@ input:focus {
   top: 105px;
   height: 36px;
 }
+
 .header li {
   display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right: double 1px #8d8c8c;
-    float: left;
-    margin-top: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: double 1px #8d8c8c;
+  float: left;
+  margin-top: 8px;
 }
 
 footer {
@@ -67,37 +71,15 @@ footer a {
   color: #08c;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
-.header ul li a {
-  width: 100%;
-  padding: 11px 30px 11px 28px;
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-  font-size: 12px;
-}
-
-.header ul li a:hover {
-  background:
-    linear-gradient(
-      rgb(97, 96, 96),
-      rgb(51, 50, 50),
-      rgb(49, 49, 49)
-    );
-}
-
 .header {
-  border: 1px solid red;
   height: 553px;
 }
 
-.logo a{
+.logo a {
   padding: 22px 30px 1px 28px !important;
 }
-.header img{
+
+.header img {
   height: 24px;
 }
 
@@ -112,7 +94,6 @@ footer a:hover {
   height: 200px;
   float: left;
   padding: 15px;
-  border: 1px solid red;
 }
 
 .left {
@@ -159,20 +140,24 @@ footer a:hover {
   background-image: url(../img/mobile-4.jpg);
 }
 
-
-h1,h2,h5 {
+h1,
+h2,
+h5 {
   text-align: center;
 }
-h1{
-  font-size: 38;;
+
+h1 {
+  font-size: 38;
 }
-h2{
+
+h2 {
   position: absolute;
   font-size: 28;
-  left :200px;
+  left: 200px;
   right: 200px;
 }
-h5{
+
+h5 {
   top: 322px;
   left: 13%;
   right: 14%;
@@ -180,16 +165,38 @@ h5{
   font-size: 23px;
 }
 
-.header a{
+.header a {
   color: white;
   text-decoration: none;
   font-weight: 100;
 }
 
-.header div{
+footer a:hover {
+  text-decoration: underline;
+}
+
+.header div {
   margin-top: 193px;
 }
 
 .straight-line {
-    border-left: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.header ul li a {
+  width: 100%;
+  padding: 11px 30px 11px 28px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.header ul li a:hover {
+  background:
+    linear-gradient(
+      rgb(97, 96, 96),
+      rgb(51, 50, 50),
+      rgb(49, 49, 49)
+    );
 }
