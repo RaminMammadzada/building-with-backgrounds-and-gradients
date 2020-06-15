@@ -35,19 +35,19 @@ input:focus {
   position: absolute;
   margin: 0;
   padding: 0;
+  border-radius: 6px;
   background: linear-gradient(#9e9d9d, #615e5e, #8d8c8c);
-  width: 620px;
-  left: 32%;
+  width: 881px;
+  left: 17%;
   top: 105px;
   height: 36px;
 }
-
 .header li {
   display: inline;
-  font-family: Arial, Helvetica, sans-serif;
-  border-right: double 1px #8d8c8c;
-  float: left;
-  margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: double 1px #8d8c8c;
+    float: left;
+    margin-top: 8px;
 }
 
 footer {
@@ -69,10 +69,11 @@ footer a:hover {
 
 .header ul li a {
   width: 100%;
-  padding: 9px 5px 11px 22px;
+  padding: 11px 30px 11px 28px;
   text-decoration: none;
   color: #fff;
   text-align: center;
+  font-size: 12px;
 }
 
 .header ul li a:hover {
@@ -87,6 +88,13 @@ footer a:hover {
 .header {
   border: 1px solid red;
   height: 553px;
+}
+
+.logo a{
+  padding: 22px 30px 1px 28px !important;
+}
+.header img{
+  height: 24px;
 }
 
 .row::after {
@@ -156,8 +164,7 @@ h2{
   right: 200px;
 }
 h5{
-  top: 326px;
-  top: 10px;
+  top: 322px;
   left: 13%;
   right: 14%;
   position: absolute;
