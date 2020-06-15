@@ -71,10 +71,6 @@ footer a {
   color: #08c;
 }
 
-.header {
-  height: 553px;
-}
-
 .logo a {
   padding: 22px 30px 1px 28px !important;
 }
@@ -94,6 +90,7 @@ footer a {
   height: 200px;
   float: left;
   padding: 15px;
+  border: 1px solid white;
 }
 
 .left {
@@ -175,14 +172,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.header div {
-  margin-top: 193px;
-}
-
-.straight-line {
-  border-left: 1px solid #ccc;
-}
-
 .header ul li a {
   width: 100%;
   padding: 11px 30px 11px 28px;
@@ -199,4 +188,17 @@ footer a:hover {
       rgb(51, 50, 50),
       rgb(49, 49, 49)
     );
+}
+
+.header {
+  border: 1px solid white;
+  height: 553px;
+}
+
+.header div {
+  margin-top: 193px;
+}
+
+.straight-line {
+  border-left: 1px solid #ccc;
 }
