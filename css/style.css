@@ -10,8 +10,7 @@ header {
   background-image: url(../img/hero-image.jpg);
   background-position: 5px -744px;
   background-repeat: no-repeat;
-
-  /* width: 1450px; */
+  width: 1450px;
   margin-left: auto;
   margin-right: auto;
 }
