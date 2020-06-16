@@ -28,8 +28,6 @@ input {
 input:focus {
   width: 140px;
   padding-left: 20px;
-
-  /* margin: 8px 9px; */
   background: url(../img/search-icon.svg), white;
   background-repeat: no-repeat, no-repeat;
   background-position: 2px 2px;
