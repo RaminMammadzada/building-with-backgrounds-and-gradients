@@ -10,7 +10,7 @@ header {
   background-image: url(../img/hero-image.jpg);
   background-position: 5px -744px;
   background-repeat: no-repeat;
-  width: 1450px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,8 +28,6 @@ input {
 input:focus {
   width: 140px;
   padding-left: 20px;
-
-  /* margin: 8px 9px; */
   background: url(../img/search-icon.svg), white;
   background-repeat: no-repeat, no-repeat;
   background-position: 2px 2px;
@@ -60,7 +58,7 @@ footer {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  width: 1480px;
+  width: 1426px;
   padding: 1em 0 2.6em;
   transform: scale(0.8);
 }
@@ -70,8 +68,12 @@ footer a {
   color: #08c;
 }
 
-.logo a {
-  padding: 22px 30px 1px 28px !important;
+.logo {
+  padding: 22px 30px 1px 28px;
+}
+
+.navbartag {
+  padding: 11px 30px 11px 28px;
 }
 
 .header img {
@@ -173,7 +175,6 @@ footer a:hover {
 
 .header ul li a {
   width: 100%;
-  padding: 11px 30px 11px 28px;
   text-decoration: none;
   color: #fff;
   text-align: center;
