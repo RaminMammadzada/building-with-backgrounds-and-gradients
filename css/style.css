@@ -68,8 +68,12 @@ footer a {
   color: #08c;
 }
 
-.logo a {
+.logo  {
   padding: 22px 30px 1px 28px !important;
+}
+
+.navbartag  {
+  padding: 11px 30px 11px 28px;
 }
 
 .header img {
@@ -171,7 +175,6 @@ footer a:hover {
 
 .header ul li a {
   width: 100%;
-  padding: 11px 30px 11px 28px;
   text-decoration: none;
   color: #fff;
   text-align: center;
